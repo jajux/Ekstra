@@ -1,0 +1,11 @@
+{
+    "name": "ekstra",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "sass":"sass --watch ./main.scss:./style.css"
+    },
+    "author": "Jawad EL HATTAB",
+    "license": "ISC"
+}
