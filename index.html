@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,24 +13,23 @@
 <body>
     <!-- Navigation -->
     <nav>
-            <div class="nav-container">
-                <div class="nav-logo">
-                    <span>ekstra</span>
-                </div>
-                <div class="toggleMenu" onclick="toggleMenu();"></div>
-                <div class="nav-menu">
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="nav-items">
-                    <a href="#">Sign in</a>
-                    <a href="#">Sign up</a>
-                </div>
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html"></a>
             </div>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href=" #">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav-items">
+                <a href="#">Sign in</a>
+                <a href="#">Sign up</a>
+            </div>
+        </div>
     </nav>
 
     <!-- Header -->
@@ -37,16 +37,76 @@
         <div class="hero-container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Ekstra</h1>
-                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quidem.</h2>
-                    <a href="#">En savoir plus</a>
+                    <h1>Save <span>your</span> serve<span>...</span></h1>
+                    <h2>Find your savior quickly</h2>
+                    <a class="more" href="#">En savoir plus</a>
                 </div>
+                <div class="hero-media">
+                    <img class="img-media" src="assets/images/social/facebook.svg" alt="facebook icon">
+                    <img class="img-media" src="assets/images/social/instagram.svg" alt="">
+                    <img class="img-media" src="assets/images/social/linkedin.svg" alt="">
+                    <p>Follow us</p>
+                </div>
+
                 <div class="hero-img">
-                    <img src="assets\images\hero-right.png">
+                    <img src="assets\images\hero.png">
                 </div>
             </div>
         </div>
-<!-- <script src="main.js"></script> -->
+    </header>
+
+    <!-- Main -->
+    <main>
+        <section>
+            <div class="section-grid">
+                <div class="title-grid">
+                    <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                </div>
+                <div class="text-grid">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam officia tempora hic dolor
+                        magnam quam at vel. Neque, laudantium culpa.</p>
+                </div>
+                <div class="item-grid">
+                    <div class="item-img">
+                        <img src="assets\images\item-grid.png">
+                    </div>
+                    <div class="item1 items">
+                        <span  class="number">01</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo saepe, iste ea reiciendis,
+                            fuga voluptatem, reprehenderit impedit laborum necessitatibus quibusdam doloremque voluptas!
+                            Neque, itaque provident.</p>
+                    </div>
+                    <div class="item2  items">
+                        <span class="number">02</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo saepe, iste ea reiciendis,
+                            fuga voluptatem, reprehenderit impedit laborum necessitatibus quibusdam doloremque voluptas!
+                            Neque, itaque provident.</p>
+                    </div>
+                    <div class="item3  items">
+                        <span class="number">03</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo saepe, iste ea reiciendis,
+                            fuga voluptatem, reprehenderit impedit laborum necessitatibus quibusdam doloremque voluptas!
+                            Neque, itaque provident.</p>
+                    </div>
+                    <div class="item4  items">
+                        <span class="number">04</span>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo saepe, iste ea reiciendis,
+                            fuga voluptatem, reprehenderit impedit laborum necessitatibus quibusdam doloremque voluptas!
+                            Neque, itaque provident.</p>
+                    </div>
+                    <div class="btn1">
+                        <a class=" btn" href="#">En savoir plus</a>
+                    </div>
+                    <div class="btn2 ">
+                        <a class="btn" href="#">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="main.js"></script>
 </body>
 
 </html>
